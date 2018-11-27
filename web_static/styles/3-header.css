@@ -1,6 +1,9 @@
-header {
-    background-color: #FFFFFF;
+header{
+    color: white;
+    border-bottom: 1px solid #CCCCCC;
+    position: fixed;
+    line-height: 70px;
     height: 70px;
     width: 100%;
-    border: 1px #CCCCCC
+    background: #FFFFFF url("../images/logo.png") no-repeat 20px
 }
