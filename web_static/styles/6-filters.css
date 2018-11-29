@@ -23,6 +23,12 @@ h3, h4{
     padding-left: 30px;
 }
 
+h2{
+    padding-top: 10px;
+    margin: 0px;
+    font-size: 16px;
+}
+
 h3{
     font-weight: 600;
     padding-top: 10px;
@@ -50,4 +56,45 @@ button{
 
 button:hover{
     opacity: 0.9;
+}
+
+.popover{
+    list-style: none;
+    visibility: hidden;
+    position: relative;
+    border: solid 1x #DDDDDD;
+    border-radius: 4px;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    right: 1px;
+    top: 5px;
+    background-color: #FAFAFA;
+}
+
+.locations:hover ul, .amenities:hover ul{
+    visibility: visible;
+}
+
+.amenities{
+    position: relative;
+    top: -67px;
+}
+
+li{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 0px;
+    padding-left: 30px;
+    list-style: none;
+}
+
+.popover ul li{
+    margin-left: -18px;
+}
+
+li>span {
+    padding-left: 20px;
 }
